@@ -195,7 +195,7 @@ const ProjectsPage = () => {
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 50 }}
               className="bg-gray-800 rounded-xl border border-gray-700 max-w-2xl w-full relative overflow-hidden max-h-[90vh] overflow-y-auto"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e:any) => e.stopPropagation()}
             >
               <button 
                 className="absolute top-4 right-4 text-gray-400 hover:text-white z-10 bg-gray-900/50 p-1 rounded-full"
